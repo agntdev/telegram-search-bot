@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Search",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Start the search flow"
+            }
+          }
+        ],
+        "send": {
+          "text": "/search"
+        }
+      }
+    ]
+  }
+]
