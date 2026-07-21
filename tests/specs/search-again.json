@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Initiate a new search"
+              "text": "🔍 Enter a keyword to search for channels or bots."
             }
           }
         ],

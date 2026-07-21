@@ -7,12 +7,25 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Start the search flow"
+              "text": "🔍 Enter a keyword to search for channels or bots."
             }
           }
         ],
         "send": {
           "text": "/search"
+        }
+      },
+      {
+        "expect": [
+          {
+            "method": "editMessageText",
+            "payload": {
+              "text": "🔍 Enter a keyword to search for channels or bots."
+            }
+          }
+        ],
+        "send": {
+          "callback": "search:enter"
         }
       }
     ]
